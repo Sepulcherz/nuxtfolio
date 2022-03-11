@@ -1,9 +1,7 @@
 <template>
   <div>
     <section class="section">
-      <h1 class="aboutstyle2 title is-3 has-text-grey">
-        Web
-      </h1>
+      <h1 class="aboutstyle2 title is-3 has-text-grey">Web</h1>
       <div class="columns is-mobile">
         <div class="cardz">
           <imgCard title="My 'crazy' resume">
@@ -34,12 +32,10 @@
     </section>
 
     <section class="section">
-            <h1 class="aboutstyle2 title is-3 has-text-grey">
-        Original Creations
-      </h1>
+      <h1 class="aboutstyle2 title is-3 has-text-grey">Original Creations</h1>
       <div class="columns is-mobile">
         <div class="cardz">
-          <imgCard title="Original Drawing">
+          <imgCard title="Autoportrait">
             <a href="https://www.instagram.com/p/CPidbmYgotA/" target="blank"
               ><img src="~assets/sepulcherzzz.png" alt="Sepulcher"
             /></a>
@@ -47,9 +43,9 @@
         </div>
 
         <div class="cardz">
-          <imgCard title="Another One">
+          <imgCard title="Something weird">
             <a
-              href="https://github.com/Sepulcherz/AnimeJsTry---Blocks"
+              href="https://www.instagram.com/p/CPieIrTA3gV/"
               target="blank"
               ><img src="~assets/whatever.png" alt="Sepulcher"
             /></a>
@@ -57,9 +53,30 @@
         </div>
 
         <div class="cardz">
-          <imgCard title="My first React static app">
-            <a href="https://github.com/Sepulcherz/reac-test" target="blank"
-              ><img src="~assets/react.png" alt="Sepulcher"
+          <imgCard title="An eye, kinda">
+            <a href="https://www.instagram.com/p/CPid99_g1Wy/" target="blank"
+              ><img src="~assets/eyez.png" alt="Sepulcher"
+            /></a>
+          </imgCard>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="columns is-mobile">
+        <div class="cardz">
+          <imgCard title="My first Sculpt on blender">
+            <a href="https://www.instagram.com/p/CPid4-CAlRy/" target="blank"
+              ><img src="~assets/boulbabiert.png" alt="Sepulcher"
+            /></a>
+          </imgCard>
+        </div>
+
+        <div class="cardz">
+          <imgCard title="Sachiel but this is my head">
+            <a
+              href="https://www.instagram.com/p/CPifAoRAnIF/"
+              target="blank"
+              ><img src="~assets/sachielthiass.png" alt="Sepulcher"
             /></a>
           </imgCard>
         </div>
@@ -100,5 +117,8 @@ img {
 .cardz {
   height: 255px;
   width: 300px;
+}
+.section {
+  margin-top: -3em;
 }
 </style>

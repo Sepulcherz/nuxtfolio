@@ -13,8 +13,7 @@
       Since I was little, I had a great interest in computers and art.
     </p>
     <p class="aboutstyle2 title is-6">
-      Which is why I got my hands on 3D and try to do some numeric arts from
-      time to time.
+      Which is why I got my hands on 3D and web developpement.
     </p>
     <p class="aboutstyle2 title is-6">
       I also try to make music when I feel like it, but nothing really serious.
