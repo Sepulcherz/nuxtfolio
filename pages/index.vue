@@ -8,10 +8,11 @@
       I recently learned how to code a few months ago (and still learning) and I
       decided to create this portfolio so you can see what I accomplished so
       far.
-      <br />
+    </p>
+    <p class="aboutstyle2 title is-6">
       I barely scratched the surface of some frontend and backend frameworks
-      (including React, VueJS, Laravel & Symfony) and I know a thing or two but I still
-      have a lot of room to improve.
+      (including React, VueJS, Laravel & Symfony) and I still have a lot of room
+      to improve.
     </p>
     <br />
     <p class="aboutstyle2 title is-6">
@@ -25,7 +26,8 @@
     </p>
     <br />
     <p class="aboutstyle2 title is-6">
-      Oh, and I also stream video games every now and then, feel free to come by!
+      Oh, and I also stream video games every now and then, feel free to come
+      by!
     </p>
     <p class="aboutstyle2 title is-6">
       <a>https://www.twitch.tv/sepulcherz</a>
@@ -38,6 +40,7 @@ import Card from "~/components/Card";
 
 export default {
   name: "IndexPage",
+  layout: "default",
 };
 </script>
 
