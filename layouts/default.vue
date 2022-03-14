@@ -7,33 +7,38 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a
-          class="navbar-item"
-          href="/"
-        >
-          <img
-            src="~assets/sepulcher.png"
-            alt="Buefy"
-            height="28"
-          >
+        <a class="navbar-item" href="/">
+          <img src="~assets/sepulcher.png" alt="Sepulcher_logo" height="28" />
         </a>
       </div>
-    </nav>
+      <div class="marginleft">
+        <div class="navbar-brand">
+          <a
+            class="navbar-item"
+            href="https://github.com/Sepulcherz"
+            target="_blank"
+          >
+            <b-icon icon="github" />
+          </a>
+        </div>
 
+        <div class="navbar-brand">
+          <a
+            class="navbar-item"
+            href="https://www.linkedin.com/in/matthias-devaux-768740188/"
+            target="_blank"
+          >
+            <b-icon icon="linkedin" />
+          </a>
+        </div>
+      </div>
+    </nav>
     <section class="main-content columns">
       <aside class="column is-2 section">
-        <p class="menu-label is-hidden-touch">
-          Menu
-        </p>
+        <p class="menu-label is-hidden-touch">Menu</p>
         <ul class="menu-list">
-          <li
-            v-for="(item, key) of items"
-            :key="key"
-          >
-            <NuxtLink
-              :to="item.to"
-              exact-active-class="is-active"
-            >
+          <li v-for="(item, key) of items" :key="key">
+            <NuxtLink :to="item.to" exact-active-class="is-active">
               <b-icon :icon="item.icon" /> {{ item.title }}
             </NuxtLink>
           </li>
@@ -44,44 +49,55 @@
         <Nuxt />
       </div>
     </section>
+    <footer class="footerz title is-6">© Matthias Devaux 2022</footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DefaultLayout',
-  data () {
+  name: "DefaultLayout",
+  data() {
     return {
       items: [
         {
-          title: 'My work',
-          icon: 'briefcase',
-          to: { name: 'index' }
+          title: "About me",
+          icon: "alien",
+          to: { name: "index" },
         },
         {
-          title: 'About me',
-          icon: 'alien',
-          to: { name: 'about' }
+          title: "My work",
+          icon: "briefcase",
+          to: { name: "my_work" },
         },
         {
-          title: 'Contact',
-          icon: 'cellphone',
-          to: { name: 'contact' }
-        }
-      ]
-    }
-  }
-}
+          title: "Contact",
+          icon: "cellphone",
+          to: { name: "contact" },
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped>
-#big{
+#big {
   min-height: 150px;
-  display:flex;
-  align-items: center
+  display: flex;
+  align-items: center;
 }
 
-img{
+img {
   filter: invert(100%);
+  min-height: 35px;
 }
+
+.marginleft {
+  margin-left: auto;
+  margin-right: 1.5em;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
 </style>

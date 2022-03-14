@@ -1,88 +1,36 @@
 <template>
-  <div>
-    <section class="section">
-      <h1 class="aboutstyle2 title is-3 has-text-grey">Web</h1>
-      <div class="columns is-mobile">
-        <div class="cardz">
-          <imgCard title="My 'crazy' resume">
-            <a href="https://sepulcherz.github.io/CV/" target="blank"
-              ><img src="~assets/cv.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-
-        <div class="cardz">
-          <imgCard title="Playing around with AnimeJS">
-            <a
-              href="https://github.com/Sepulcherz/AnimeJsTry---Blocks"
-              target="blank"
-              ><img src="~assets/blocks.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-
-        <div class="cardz">
-          <imgCard title="My first React static app">
-            <a href="https://github.com/Sepulcherz/reac-test" target="blank"
-              ><img src="~assets/react.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h1 class="aboutstyle2 title is-3 has-text-grey">Original Creations</h1>
-      <div class="columns is-mobile">
-        <div class="cardz">
-          <imgCard title="Autoportrait">
-            <a href="https://www.instagram.com/p/CPidbmYgotA/" target="blank"
-              ><img src="~assets/sepulcherzzz.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-
-        <div class="cardz">
-          <imgCard title="Something weird">
-            <a
-              href="https://www.instagram.com/p/CPieIrTA3gV/"
-              target="blank"
-              ><img src="~assets/whatever.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-
-        <div class="cardz">
-          <imgCard title="An eye, kinda">
-            <a href="https://www.instagram.com/p/CPid99_g1Wy/" target="blank"
-              ><img src="~assets/eyez.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="columns is-mobile">
-        <div class="cardz">
-          <imgCard title="My first Sculpt on blender">
-            <a href="https://www.instagram.com/p/CPid4-CAlRy/" target="blank"
-              ><img src="~assets/boulbabiert.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-
-        <div class="cardz">
-          <imgCard title="Sachiel but this is my head">
-            <a
-              href="https://www.instagram.com/p/CPifAoRAnIF/"
-              target="blank"
-              ><img src="~assets/sachielthiass.png" alt="Sepulcher"
-            /></a>
-          </imgCard>
-        </div>
-      </div>
-    </section>
-  </div>
+  <section>
+    <h1 class="aboutstyle title is-3 has-text-grey">
+      Hello. I'm Matthias, A junior web developper from France. <br />
+      I'm also known as Sepulcher.
+    </h1>
+    <p class="aboutstyle title is-6">
+      I recently learned how to code a few months ago (and still learning) and I
+      decided to create this portfolio so you can see what I accomplished so
+      far.
+      <br />
+      I barely scratched the surface of some frontend and backend frameworks
+      (including React, VueJS, Laravel & Symfony) and I know a thing or two but I still
+      have a lot of room to improve.
+    </p>
+    <br />
+    <p class="aboutstyle2 title is-6">
+      Since I was little, I had a great interest in computers and art.
+    </p>
+    <p class="aboutstyle2 title is-6">
+      Which is why I got my hands on 3D and web developpement.
+    </p>
+    <p class="aboutstyle2 title is-6">
+      I also try to make music when I feel like it, but nothing really serious.
+    </p>
+    <br />
+    <p class="aboutstyle2 title is-6">
+      Oh, and I also stream video games every now and then, feel free to come by!
+    </p>
+    <p class="aboutstyle2 title is-6">
+      <a>https://www.twitch.tv/sepulcherz</a>
+    </p>
+  </section>
 </template>
 
 <script>
@@ -90,35 +38,23 @@ import Card from "~/components/Card";
 
 export default {
   name: "IndexPage",
-  components: {
-    Card,
-  },
 };
 </script>
 
-<style scoped>
+<style>
+.aboutstyle {
+  margin-top: 5rem;
+}
+.aboutstyle2 {
+  margin-top: 1rem;
+}
+
 @media only screen and (max-width: 500px) {
-  .columns .is-mobile {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  h1 {
+    margin: 0.5em;
   }
-  .cardz {
-    margin-bottom: 5em;
+  p {
+    margin: 1em;
   }
-}
-img {
-  border-radius: 5px;
-  object-fit: cover;
-  min-height: 150px;
-  max-height: 150px;
-  min-width: 220px;
-}
-.cardz {
-  height: 255px;
-  width: 300px;
-}
-.section {
-  margin-top: -3em;
 }
 </style>
