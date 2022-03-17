@@ -5,7 +5,7 @@
       <div class="columns is-mobile">
         <div class="cardz">
           <imgCard title="My 'crazy' resume">
-            <a href="https://sepulcherz.github.io/CV/" target="blank"
+            <a href="https://sepulcherz.github.io/CV/" target="_blank"
               ><img src="~assets/cv.png" alt="Sepulcher"
             /></a>
           </imgCard>
@@ -15,7 +15,7 @@
           <imgCard title="Playing around with AnimeJS">
             <a
               href="https://github.com/Sepulcherz/AnimeJsTry---Blocks"
-              target="blank"
+              target="_blank"
               ><img src="~assets/blocks.png" alt="Sepulcher"
             /></a>
           </imgCard>
@@ -23,8 +23,26 @@
 
         <div class="cardz">
           <imgCard title="My first React static app">
-            <a href="https://github.com/Sepulcherz/reac-test" target="blank"
+            <a href="https://github.com/Sepulcherz/reac-test" target="_blank"
               ><img src="~assets/react.png" alt="Sepulcher"
+            /></a>
+          </imgCard>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="columns is-mobile">
+        <div class="cardz">
+          <imgCard title="Laravel Test">
+            <a href="https://github.com/Sepulcherz/example-app" target="_blank"
+              ><img src="~assets/Afparavel.png" alt="Sepulcher"
+            /></a>
+          </imgCard>
+        </div>
+        <div class="cardz">
+          <imgCard title="CSS Gameboy (kinda)">
+            <a href="https://github.com/Sepulcherz/GAEMBOI" target="_blank"
+              ><img src="~assets/gamelol.png" alt="Sepulcher"
             /></a>
           </imgCard>
         </div>
@@ -36,7 +54,7 @@
       <div class="columns is-mobile">
         <div class="cardz">
           <imgCard title="Autoportrait">
-            <a href="https://www.instagram.com/p/CPidbmYgotA/" target="blank"
+            <a href="https://www.instagram.com/p/CPidbmYgotA/" target="_blank"
               ><img src="~assets/sepulcherzzz.png" alt="Sepulcher"
             /></a>
           </imgCard>
@@ -44,7 +62,7 @@
 
         <div class="cardz">
           <imgCard title="Something weird">
-            <a href="https://www.instagram.com/p/CPieIrTA3gV/" target="blank"
+            <a href="https://www.instagram.com/p/CPieIrTA3gV/" target="_blank"
               ><img src="~assets/whatever.png" alt="Sepulcher"
             /></a>
           </imgCard>
@@ -52,7 +70,7 @@
 
         <div class="cardz">
           <imgCard title="An eye, kinda">
-            <a href="https://www.instagram.com/p/CPid99_g1Wy/" target="blank"
+            <a href="https://www.instagram.com/p/CPid99_g1Wy/" target="_blank"
               ><img src="~assets/eyez.png" alt="Sepulcher"
             /></a>
           </imgCard>
@@ -63,7 +81,7 @@
       <div class="columns is-mobile">
         <div class="cardz">
           <imgCard title="My first Sculpt on blender">
-            <a href="https://www.instagram.com/p/CPid4-CAlRy/" target="blank"
+            <a href="https://www.instagram.com/p/CPid4-CAlRy/" target="_blank"
               ><img src="~assets/boulbabiert.png" alt="Sepulcher"
             /></a>
           </imgCard>
@@ -71,7 +89,7 @@
 
         <div class="cardz">
           <imgCard title="Sachiel but this is my head">
-            <a href="https://www.instagram.com/p/CPifAoRAnIF/" target="blank"
+            <a href="https://www.instagram.com/p/CPifAoRAnIF/" target="_blank"
               ><img src="~assets/sachielthiass.png" alt="Sepulcher"
             /></a>
           </imgCard>
